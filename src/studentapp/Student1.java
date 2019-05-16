@@ -24,6 +24,6 @@ public class Student1
     
     public void print()
     {
-        System.out.println(name+" "+age);
+        System.out.print(name+" "+age);
     }
 }
