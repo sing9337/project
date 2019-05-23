@@ -13,6 +13,13 @@ import java.util.Scanner;
 
 public class Course 
 {
+
+    /**
+     * @param courseName the courseName to set
+     */
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
     private String courseName;
     private String[] students = new String[100];
     private int numberOfStudents;
